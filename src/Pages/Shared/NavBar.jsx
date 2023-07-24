@@ -1,12 +1,11 @@
+import { Link } from "react-router-dom";
 
 
 const NavBar = () => {
 
     const navOptions = <>
-        <li><a>Home</a></li>
-        <li>
-            <a>Colleges</a>
-        </li>
+        <Link to='/'><li><a>Home</a></li></Link>
+        <Link to='colleges'><li><a>Colleges</a></li></Link>
         <li><a>Admission</a></li>
         <li><a>My College</a></li>
 
