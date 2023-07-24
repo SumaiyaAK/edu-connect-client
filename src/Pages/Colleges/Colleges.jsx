@@ -5,7 +5,7 @@ import AllCollege from "./AllCollege";
 const Colleges = () => {
     const [colleges, setColleges] = useState([])
     useEffect(() => {
-        fetch('colleges.json')
+        fetch('http://localhost:5000/AllCollege')
             .then(res => res.json())
             .then(data => {
                 // const popularColleges = data.filter(college => college.category === 'high')

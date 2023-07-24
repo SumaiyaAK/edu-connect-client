@@ -2,6 +2,7 @@
 import ReactStars from "react-rating-stars-component";
 
 import { Link } from 'react-router-dom';
+import CollegeDetails from "./CollegeDetails";
 
 const AllCollege = ({ allcolleges }) => {
     const { College_Name, Image, Admission_Dates, Admission_Process, Events, Research_History, Sports, rating, number_of_research, _id} = allcolleges;
